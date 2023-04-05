@@ -1,5 +1,7 @@
-[![backlight.dev](https://img.shields.io/badge/Open%20in-Backlight.dev%20editor-%23f8c307)](https://backlight.dev/review/U3bRwsh0qncQBY27uPGi)
-[![Github Repo](https://img.shields.io/github/last-commit/divriots/starter-tailwindcss)](https://github.com/divriots/starter-tailwindcss)
+import * as React from 'react';
+import { mdx } from '@mdx-js/react';
+import { DefaultLayout } from '~/mdx-layout';
+export default DefaultLayout;
 
 # Tailwind CSS Tech Sample <br/><small>_by_ ‹div›RIOTS</small>
 
@@ -42,7 +44,7 @@ export const typography = {
 };
 ```
 
-Then all tokens definitions are merged in the `~/theme/` component to build the global Tailwind CSS `theme` definition. This `theme.extend` is used in the `tailwind.config.js` file directly to setup all the classes and variants.
+Then all tokens definitions are merged in the `~/theme/` component to build the global Tailwind CSS `theme.extend` definition. This `theme` is used in the `tailwind.config.js` file directly to setup all the classes and variants.
 
 ## Components
 

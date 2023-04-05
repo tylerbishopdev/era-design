@@ -1,0 +1,22 @@
+{
+  "name": "@backlight-dev/college-rinse-gpb79.tailwindcss-lg4azee1",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve pKc3eHKCZEoS784jdK5d --open"
+  },
+  "devDependencies": {
+    "@divriots/dockit-react": "^0.0.79",
+    "@mdx-js/react": "^1.6.22",
+    "@types/react": "^17.0.14"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.3.0",
+    "@heroicons/react": "^1.0.2",
+    "@tailwindcss/typography": "0.5.0-alpha.2",
+    "react": "^17.0.2"
+  }
+}
